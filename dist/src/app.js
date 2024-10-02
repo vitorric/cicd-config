@@ -16,3 +16,4 @@ exports.server = server;
 app.use((0, cors_1.default)({
     origin: process.env.CORS_ORIGIN,
 }), (0, helmet_1.default)(), (0, morgan_1.default)('dev'), express_1.default.json({ limit: '1000MB' }), express_1.default.urlencoded({ limit: '2000MB', extended: true }));
+console.log('testing');
