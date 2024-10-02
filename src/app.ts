@@ -20,6 +20,4 @@ app.use(
   express.urlencoded({ limit: '2000MB', extended: true })
 );
 
-console.log('testing');
-
 export { server };
